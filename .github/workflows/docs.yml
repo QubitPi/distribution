@@ -5,9 +5,10 @@ concurrency:
   cancel-in-progress: true
 
 on:
+  pull_request:
   push:
     branches:
-      - main
+      - master
     paths:
       - .github/workflows/docs.yml
       - dockerfiles/docs.Dockerfile
