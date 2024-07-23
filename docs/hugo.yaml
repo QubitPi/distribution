@@ -1,4 +1,4 @@
-baseURL: https://distribution.github.io/distribution
+baseURL: https://distribution.qubitpi.org
 languageCode: en-us
 title: CNCF Distribution
 theme: hugo-geekdoc
